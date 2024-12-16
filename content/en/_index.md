@@ -96,7 +96,7 @@ sections:
         <p style="font-size:90%; text-align:justify">POI-based guide applications face challenges in local cities. When walking in areas with fewer notable spots, the opportunities for user interaction decrease, often resulting in silence due to a lack of content. Additionally, some tourists may deviate from the intended routes, disrupting the optimal flow designed to enhance regional experiences. Our proposal, incorporating hierarchical geofencing and conversation generation techniques, provides more flexible and continuous guide interactions through the Onsite Radio App. Simply press the play button, slip your smartphone into your pocket, and start walking. Every step you take will be transformed into captivating storytelling delivered by virtual characters.</p>
 
         <p style="font-size:70%; text-align:left; font-weight: bold;">references:</p>
-        <p style="font-size:70%; text-align:left;"></p>
+        <p style="font-size:70%; text-align:left;">[1] Sasaki et al.(2024). Hierarchical Geofencing for Location-Aware Generative Audio Tours. Urban Info</p>
 
     design:
       columns: '1'
