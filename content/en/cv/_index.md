@@ -49,36 +49,36 @@ __🧑‍💻 For a detailed overview of my programming skills and portfolio, pl
 
 ### Journal (peer-reviewed)
 
-1. <u>Iori Sasaki</u>, Masatoshi Arikawa, Min Lu, Tomihiro Utsumi, and Ryo Sato:
-__Hierarchical Geofencing for Location-Aware Generative Audio Tours__
-_Urban Informatics_, Springer Nature Link, 2024. <span style="opacity:0.6;">[Open Access]</span>
-[https://doi.org/10.1007/s44212-024-00064-6](https://doi.org/10.1007/s44212-024-00064-6) 
+1. <u>Iori Sasaki</u>, Masatoshi Arikawa, Min Lu, Tomihiro Utsumi, and Ryo Sato:  
+__Hierarchical Geofencing for Location-Aware Generative Audio Tours__  
+_Urban Informatics_, Springer Nature Link, 2024. <span style="opacity:0.6;">[Open Access]</span>  
+[https://doi.org/10.1007/s44212-024-00064-6](https://doi.org/10.1007/s44212-024-00064-6)  
 <span style="color: purple; font-style: italic;">keywords: Urban tourism, Audio augmented reality, Geofencing, Story serialization, Mobile computing, Large language models</span>
    * <span style="opacity:0.6; font-size:90%;">This paper was reviewed by three reviewers.</span>
    * <span style="opacity:0.6; font-size:90%;">Presented at AsiaCarto2024, Hong Kong, SAR China, 8-10 December 2024.</span> <span style="color: red; font-weight: bold;">[Best Student Presentation Award]</span>
 
-2. <u>Iori Sasaki</u>, Masatoshi Arikawa, Min Lu, Tomihiro Utsumi, and Ryo Sato:
-__Data-Driven Geofencing Design for POI Notifiers Utilizing Genetic Algorithm__
-_ISPRS International Journal of Geo-Information_, 13(6):174, 2024. <span style="opacity:0.6;">[Open Access]</span>
-[https://doi.org/10.3390/ijgi13060174](https://doi.org/10.3390/ijgi13060174) 
+2. <u>Iori Sasaki</u>, Masatoshi Arikawa, Min Lu, Tomihiro Utsumi, and Ryo Sato:  
+__Data-Driven Geofencing Design for POI Notifiers Utilizing Genetic Algorithm__  
+_ISPRS International Journal of Geo-Information_, 13(6):174, 2024. <span style="opacity:0.6;">[Open Access]</span>  
+[https://doi.org/10.3390/ijgi13060174](https://doi.org/10.3390/ijgi13060174)  
 <span style="color: purple; font-style: italic;">keywords: Geo-notification, Geofencing, GPS trajectory, Flexible circular geofence, Genetic algorithm, Trigger event separation</span>
     * <span style="opacity:0.6; font-size:90%;">Impact Factor: 3.4 (accepted on 23 May 2024)</span>
     * <span style="opacity:0.6; font-size:90%;">This paper was reviewed by five reviewers.</span>
     
 
-3. <u>Iori Sasaki</u>, Masatoshi Arikawa, Min Lu, and Ryo Sato:
-__Mobile Collaborative Heatmapping to Infer Self-Guided Walking Tourists’ Preferences for Geomedia__
-_ISPRS International Journal of Geo-Information_, 12(7):283, 2023. <span style="opacity:0.6;">[Open Access]</span>
-[https://doi.org/10.3390/ijgi12070283](https://doi.org/10.3390/ijgi12070283)
+3. <u>Iori Sasaki</u>, Masatoshi Arikawa, Min Lu, and Ryo Sato:  
+__Mobile Collaborative Heatmapping to Infer Self-Guided Walking Tourists’ Preferences for Geomedia__  
+_ISPRS International Journal of Geo-Information_, 12(7):283, 2023. <span style="opacity:0.6;">[Open Access]</span>  
+[https://doi.org/10.3390/ijgi12070283](https://doi.org/10.3390/ijgi12070283)  
 <span style="color: purple; font-style: italic;">keywords: Walking tourism, Digital feedback, Geographic heatmaps, Mobile sensing, Semi-ready trajectory</span>
     * <span style="opacity:0.6; font-size:90%;">This article belongs to the Special Issue Urban Geospatial Analytics Based on Crowdsourced Data.</span>
     * <span style="opacity:0.6; font-size:90%;">Impact Factor: 3.4 (accepted on 13 July 2023)</span>
     * <span style="opacity:0.6; font-size:90%;">This paper was reviewed by three reviewers.</span>
 
-1. <u>Iori Sasaki</u>, Masatoshi Arikawa and Akinori Takahashi:
-__Articulated Trajectory Mapping for Reviewing Walking Tours__
-_ISPRS International Journal of Geo-Information_, 9(10):610, 2020. <span style="opacity:0.6;">[Open Access]</span>
-[https://doi.org/10.3390/ijgi9100610](https://doi.org/10.3390/ijgi9100610)
+1. <u>Iori Sasaki</u>, Masatoshi Arikawa and Akinori Takahashi:  
+__Articulated Trajectory Mapping for Reviewing Walking Tours__  
+_ISPRS International Journal of Geo-Information_, 9(10):610, 2020. <span style="opacity:0.6;">[Open Access]</span>  
+[https://doi.org/10.3390/ijgi9100610](https://doi.org/10.3390/ijgi9100610)  
 <span style="color: purple; font-style: italic;">keywords: GPS trajectory, Articulation, Reviewing post-tour activity, Mobile mapping, Location-based learning, Walking tours, Data cleaning</span> 
     * <span style="opacity:0.6; font-size:90%;">This article belongs to the Special Issue Recent Trends in Location Based Services and Science.</span>
     * <span style="opacity:0.6; font-size:90%;">Impact Factor: 2.239 (accepted on 19 October 2020)</span>
@@ -263,6 +263,8 @@ Data-Driven Geofencing: Advancing Urban Tourist Exploration with Location Intell
 ---
 
 ## <center>Award</center>
+
+* Best Student Presentation Award - AsiaCarto2024 (December, 2024)
 
 * ACM SIGSPATIAL 2022 Travel Grant Award (November, 2022)
 
