@@ -51,13 +51,13 @@ __🧑‍💻 For a detailed overview of my programming skills and portfolio, pl
 
 1. <u>Iori Sasaki</u>, Masatoshi Arikawa, Min Lu, Tomihiro Utsumi, and Ryo Sato:  
 __Hierarchical Geofencing for Location-Aware Generative Audio Tours__  
-_Urban Informatics_, Springer Nature Link, 2024. <span style="opacity:0.6;">[Open Access]</span>  
+_Urban Informatics_, 3, 33, Springer Nature Link, 2024. <span style="opacity:0.6;">[Open Access]</span>  
 [https://doi.org/10.1007/s44212-024-00064-6](https://doi.org/10.1007/s44212-024-00064-6)  
 <span style="color: purple; font-style: italic;">keywords: Urban tourism, Audio augmented reality, Geofencing, Story serialization, Mobile computing, Large language models</span>
    * <span style="opacity:0.6; font-size:90%;">This paper was reviewed by three reviewers.</span>
    * <span style="opacity:0.6; font-size:90%;">Presented at AsiaCarto2024, Hong Kong, SAR China, 8-10 December 2024.</span> <span style="color: red; font-weight: bold;">[Best Student Presentation Award]</span>
 
-2. <u>Iori Sasaki</u>, Masatoshi Arikawa, Min Lu, Tomihiro Utsumi, and Ryo Sato:  
+1. <u>Iori Sasaki</u>, Masatoshi Arikawa, Min Lu, Tomihiro Utsumi, and Ryo Sato:  
 __Data-Driven Geofencing Design for POI Notifiers Utilizing Genetic Algorithm__  
 _ISPRS International Journal of Geo-Information_, 13(6):174, 2024. <span style="opacity:0.6;">[Open Access]</span>  
 [https://doi.org/10.3390/ijgi13060174](https://doi.org/10.3390/ijgi13060174)  
@@ -113,7 +113,7 @@ _LocalRec'23: Proceedings of the 7th ACM SIGSPATIAL International Workshop on Lo
 __Thematic Geo-Density Heatmapping for Walking Tourism Analytics using Semi-Ready GPS Trajectories__  
 _2022 IEEE International Conference on Big Data (Big Data)_, pp. 4944–4951.  
 [https://doi.org/10.1109/BigData55660.2022.10020743](https://doi.org/10.1109/BigData55660.2022.10020743)  
-    * <span style="opacity:0.6; font-size:90%;">Presented at _The 7th IEEE International Workshop on Big Spatial Data In Conjunction with the 2022 IEEE International Conference on Big Data (BSD’22)_, Osaka, Japan, 17–20 December 2022, pp. 4944-4951. 
+    * <span style="opacity:0.6; font-size:90%;">Presented at _The 7th IEEE International Workshop on Big Spatial Data In Conjunction with the 2022 IEEE International Conference on Big Data (BSD’22)_, Osaka, Japan, 17–20 December 2022. 
     * <span style="opacity:0.6; font-size:90%;">The official website: [https://cse.ucdenver.edu/~BSD2022/](https://cse.ucdenver.edu/~BSD2022/)</span>
 
 1. <u>Iori Sasaki</u>, Masatoshi Arikawa, and Min Lu:  
