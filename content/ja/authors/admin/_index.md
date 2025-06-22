@@ -3,7 +3,7 @@
 title: 佐々木 一織
 
 # Name pronunciation (optional)
-name_pronunciation: SASAKI, Iori
+name_pronunciation: SASAKI Iori
 
 # Full name (for SEO)
 first_name: Iori
@@ -20,11 +20,11 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: 博士後期課程学生
+role: 助教
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: 秋田大学
+  - name: 秋田大学　情報データ科学部
     url: https://top.ie.akita-u.ac.jp/lab/
 
 # Social network links
@@ -59,10 +59,10 @@ interests:
   - 観光情報学
 
 education:
-  - area: 博士後期課程 在学中
+  - area: 博士（工学）
     institution: 秋田大学
     date_start: 2022-04-01
-    date_end: ''
+    date_end: '2025-03-17'
     summary: |
       空間情報学
   - area: Management of Technology (副専攻プログラム)
@@ -90,7 +90,7 @@ work:
     company_url: ''
     company_logo: ''
     date_start: 2022-04-01
-    date_end: ''
+    date_end: '2025-03-31'
     summary: |2-
       ---
 
@@ -98,4 +98,4 @@ work:
 
 ## こんにちは！
 
-日本の秋田大学で空間情報学を専攻する博士課程の学生です．2022年から日本学術振興会（JSPS）の特別研究員として採用されています．休みの日は，モバイルプログラミングやサイクリングを楽しんでいます．
+2025年から秋田大学 情報データ科学部 助教に着任しました。休みの日は，モバイルプログラミングやサイクリングを楽しんでいます。

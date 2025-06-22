@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Iori Sasaki
+title: SASAKI Iori
 
 # Name pronunciation (optional)
 # name_pronunciation: SASAKI, Iori
@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: PhD Student
+role: Assistant Professor
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -31,7 +31,7 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:sasaki@lab.akita-u.info'
+    url: 'mailto:sasaki_iori@gipc.akita-u.ac.jp'
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/Io-33kyanite
@@ -59,12 +59,12 @@ interests:
   - Tourism informatics
 
 education:
-  - area: PhD in Engineering
+  - area: Ph.D. in Engineering
     institution: Akita University
     date_start: 2022-04-01
-    date_end: ''
+    date_end: '2025-03-17'
     summary: |
-      Currently pursuing a Ph.D. Supervised by Prof. Masatoshi Arikawa.
+      Supervised by Prof. Masatoshi Arikawa.
   - area: Management of Technology Program
     institution: Akita University
     date_start: 2020-04-01
@@ -98,4 +98,4 @@ work:
 
 ## About Me
 
-Hello, I’m Iori Sasaki, a PhD student at Akita University in Japan, specializing in spatial informatics. Since 2022, I have been honored to serve as a research fellow with the Japan Society for the Promotion of Science (JSPS). In my free time, I enjoy mobile programming and cycling, which help me maintain a balanced life.
+Hello, I’m Iori Sasaki, assistant professor at Akita University in Japan, specializing in Geospatial Informatics and Mobile Computing. In my free time, I enjoy mobile programming and cycling, which help me maintain a balanced life.

@@ -4,18 +4,21 @@
   #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Home
+  - name: Highlight
     url: /
     weight: 10
-  - name: CV
-    url: /cv
-    weight: 11
-  - name: Services
-    url: /service
-    weight: 12
+  # - name: CV
+  #   url: /cv
+  #   weight: 11
+  # - name: Services
+  #   url: /service
+  #   weight: 12
   - name: Blog
     url: /blog
     weight: 13
+  - name: CV (external)
+    url: https://researchmap.jp/sasakii
+    weight: 15
   # - name: Talks
   #   url: /#talks
   #   weight: 12

@@ -31,22 +31,6 @@ sections:
           position: center
           parallax: false
 
-  - block: collection
-    content:
-      title: ❐ Recent Publications ❐
-      text: ""
-      count: 3
-      filters:
-        folders:
-          - ./ref-list
-        exclude_featured: false
-      archive:
-        enable: false
-    design:
-      view: citation
-      spacing:
-        padding: 
-
   - block: markdown
     content:
       title: '❐ Research Highlights ❐'
