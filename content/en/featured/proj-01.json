@@ -1,0 +1,15 @@
+{
+    "title": "Thematic Heatmapping and Scoring Methods for Developments of Walking Routes (2021–)",
+    "description": "Establishing a cost-effective digital feedback system that contributes to the development of walking model routes, considering both spots and walking paths, is a challenge in fostering sustainable regional tourism. This study discusses a feedback system that contributes to the evaluation and improvement of existing model routes by mapping tourists’ access (attention) to tourist resources based on the automatic collection and analysis of mobile sensor data, which is standardly equipped on smartphones and other devices.",
+    "refs": [
+        {
+          "title": "Sasaki et al. (2020). Articulated Trajectory Mapping for Reviewing Walking Tours. ISPRS Int. J. Geo-Inf. 9(10):610.",
+          "doi": "10.3390/ijgi9100610"
+        },
+        {
+          "title": "Sasaki et al. (2023). Mobile Collaborative Heatmapping to Infer Self-Guided Walking Tourists’ Preferences for Geomedia. ISPRS Int. J. Geo-Inf. 12(7):283.",
+          "doi": "10.3390/ijgi12070283"
+        }
+    ],
+    "image_name": "ga-1.png"
+}
