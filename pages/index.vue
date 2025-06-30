@@ -46,7 +46,7 @@
                 {{ project.meta.title }}
               </v-card-title>
               <v-img
-                :src="`/images/${project.meta.image_name}`"
+                :src="`@/assets/img/${project.meta.image_name}`"
                 class="bg-white"
               ></v-img>
               <v-card-text class="body-2">
