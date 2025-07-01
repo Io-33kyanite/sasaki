@@ -46,11 +46,11 @@
                 {{ project.meta.title }}
               </v-card-title>
               <v-img
-                :src="`@/assets/img/${project.meta.image_name}`"
+                :src="`/assets/${project.meta.image_name}.png`"
                 class="bg-white"
               ></v-img>
               <v-card-text class="body-2">
-                {{ project.meta.description }}
+                {{ project.meta.image_name }}
               </v-card-text>
               <v-divider class="my-4" />
               <v-list dense>
