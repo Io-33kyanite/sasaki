@@ -5,13 +5,13 @@
       <v-sheet class="pa-8 mb-12" elevation="2" rounded>
         <v-row align="center">
           <v-col cols="12" md="3" class="text-center">
-            <v-avatar>
+            <!-- <v-avatar>
               <v-img
                 src="/images/avator.png"
                 alt="Profile"
                 width="220"
               />
-            </v-avatar>
+            </v-avatar> -->
           </v-col>
           <v-col cols="12" md="9">
             <h2 class="text-h4 font-weight-bold">{{ profileName }}</h2>
@@ -46,7 +46,7 @@
                 {{ project.meta.title }}
               </v-card-title>
               <v-img
-                :src="`/assets/${project.meta.image_name}.png`"
+                :src="`assets/${project.meta.image_name}.png`"
                 class="bg-white"
               ></v-img>
               <v-card-text class="body-2">
