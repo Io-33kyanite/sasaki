@@ -4,27 +4,37 @@
       <!-- プロフィールセクション -->
       <v-sheet class="pa-8 mb-12" elevation="2" rounded>
         <v-row align="center">
-          <v-col cols="12" md="3" class="text-center">
-            <!-- <v-avatar>
+          <v-col cols="15" md="2" class="text-center">
+            <v-avatar size="130">
               <v-img
-                src="/images/avator.png"
+                src="assets/avator.jpg"
                 alt="Profile"
-                width="220"
               />
-            </v-avatar> -->
+            </v-avatar>
           </v-col>
           <v-col cols="12" md="9">
             <h2 class="text-h4 font-weight-bold">{{ profileName }}</h2>
             <p class="text-subtitle-1">
               {{ profileTitle }} | {{ profileRole }} @ {{ profileOrgs }}
             </p>
+            <div class="d-flex align-center">
+              <a href="https://www.linkedin.com/in/iori33ky/" target="_blank">
+                <v-icon size="28" color="grey darken-1" class="mr-2">mdi-linkedin</v-icon>
+              </a>
+              <a href="https://github.com/Io-33kyanite" target="_blank">
+                <v-icon size="28" color="grey darken-1" class="mr-2">mdi-github</v-icon>
+              </a>
+              <a href="https://www.youtube.com/@iorisasaki1652" target="_blank">
+                <v-icon size="28" color="grey darken-1" class="mr-2">mdi-youtube</v-icon>
+              </a>
+            </div>
           </v-col>
         </v-row>
       </v-sheet>
 
       <!-- 研究サマリー -->
       <v-sheet class="pa-8 mb-8" color="grey lighten-4" rounded>
-        <h3 class="text-h5 font-weight-medium">{{ summary?.meta.title }}</h3>
+        <h3 class="text-h5 font-weight-bold">{{ summary?.meta.title }}</h3>
         <p class="body-1 mt-2">{{ summary?.meta.description }}</p>
       </v-sheet>
 
@@ -42,7 +52,7 @@
               class="transition-swing pa-4 mb-6"
               rounded
             >
-              <v-card-title class="text-h6 font-weight-bold">
+              <v-card-title class="text-h6 font-weight-bold text-wrap">
                 {{ project.meta.title }}
               </v-card-title>
               <v-img
@@ -50,7 +60,7 @@
                 class="bg-white"
               ></v-img>
               <v-card-text class="body-2">
-                {{ project.meta.image_name }}
+                {{ project.meta.description }}
               </v-card-text>
               <v-divider class="my-4" />
               <v-list dense>
@@ -60,7 +70,7 @@
                   class="py-1"
                 >
                   <v-list-item-title>
-                    <v-list-item-title class="text-caption">
+                    <v-list-item-title class="text-caption text-wrap">
                       {{ ref.title }}
                     </v-list-item-title>
                     <v-list-item-subtitle class="text-caption">
