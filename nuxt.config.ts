@@ -9,8 +9,9 @@ export default defineNuxtConfig({
     }
   },
   app: {
-    baseURL: '/',
-    cdnURL: '/'
+    baseURL: '/sasaki/',
+    cdnURL: '/sasaki/',
+    buildAssetsDir: "/assets/"
   },
   css: [
     'vuetify/styles',
