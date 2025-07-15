@@ -37,7 +37,7 @@
       <v-list>
         <v-list-item :to="localePath('/')">Featured</v-list-item>
         <v-list-item :to="localePath('/blog')">Blog</v-list-item>
-        <v-list-item href="https://example.com/cv.pdf" target="_blank">CV(external)</v-list-item>
+        <v-list-item :href=researchmapUrl target="_blank">CV(external)</v-list-item>
         <v-divider />
         <v-list-item
           v-for="l in locales"
