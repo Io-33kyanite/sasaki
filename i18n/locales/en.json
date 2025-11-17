@@ -3,6 +3,10 @@
     "name": "Iori Sasaki",
     "title": "Ph.D. in Engineering",
     "role": "Assistant Professor",
-    "organizations": "Akita University"
+    "organizations": "Faculty of Informatics and Data Science, Akita University"
+  },
+  "common": {
+    "showMore": "Show more",
+    "showLess": "Show less"
   }
 }

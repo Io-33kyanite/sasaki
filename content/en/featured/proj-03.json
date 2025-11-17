@@ -1,11 +1,17 @@
 {
     "title": "Onsite Radio App — Generative Audio Guide Driven by Hierarchical Geofencing and Large Language Models (2024–)",
-    "description": "POI-based guide applications face challenges in local cities. When walking in areas with fewer notable spots, the opportunities for user interaction decrease, often resulting in silence due to a lack of content. Additionally, some tourists may deviate from the intended routes, disrupting the optimal flow designed to enhance regional experiences. Our proposal, incorporating hierarchical geofencing and conversation generation techniques, provides more flexible and continuous guide interactions through the Onsite Radio App. Simply press the play button, slip your smartphone into your pocket, and start walking. Every step you take will be transformed into captivating storytelling delivered by virtual characters.",
+    "description": "Conventional POI (Point-of-Interest)–based audio tours often play guidance only at specific spots. In many regions—especially where prominent landmarks are sparse—this leads to long stretches of silence while users walk between points. If visitors deviate from the predefined route, the narrative breaks, and the overall experience loses coherence.\n### 🎙️ Turning Every Step Into a Story\nOur research introduces Onsite Radio, a generative audio tour system that transforms the entire act of walking through a city into a continuous narrative. The system combines hierarchical geofencing with large language models to provide context-aware, seamless storytelling. Hierarchical geofencing is a location-recognition algorithm capable of handling multiple spatial scales at once—such as entire districts, individual streets, or specific buildings. Just as an experienced tour guide adjusts their commentary depending on what is around the bus at any moment—explaining a nearby landmark when it appears, or shifting to broader historical context when there is nothing particular in sight—the system can smoothly switch the geographic scale of its commentary based on the user’s current position. Building on this spatial understanding, generative AIs draw from local archives of history and culture to produce natural, conversational audio guidance in real time. By generating narration that adapts to the user’s movement patterns and the changing environment, the system creates an immersive storytelling experience in which the city itself seems to speak.",
+    "media": [
+        {
+            "type": "image",
+            "src": "ga3.png",
+            "alt": "On-site radio system"
+        }
+    ],
     "refs": [
         {
           "title": "Sasaki et al.(2024). Hierarchical Geofencing for Location-Aware Generative Audio Tours. Urban Informatics, 3, 33, Springer Nature.",
           "doi": "10.1007/s44212-024-00064-6"
         }
-    ],
-    "image_name": "ga3"
+    ]
 }

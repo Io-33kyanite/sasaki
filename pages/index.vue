@@ -7,7 +7,7 @@
           <v-col cols="15" md="2" class="text-center">
             <v-avatar size="130">
               <v-img
-                src="assets/avator.jpg"
+                src="/sasaki/assets/avator.jpg"
                 alt="Profile"
               />
             </v-avatar>
@@ -44,23 +44,39 @@
           cols="12"
           md="6"
           v-for="project in projects"
-          :key="project.meta.path ?? project.meta.title"
+          :key="(project.meta.path ?? project.meta.title) as string"
         >
-          <v-hover v-slot="{ hover }">
+          <v-hover v-slot="{ isHovering }">
             <v-card
-              :elevation="hover ? 8 : 2"
+              :elevation="isHovering ? 8 : 2"
               class="transition-swing pa-4 mb-6"
               rounded
             >
               <v-card-title class="text-h6 font-weight-bold text-wrap">
                 {{ project.meta.title }}
               </v-card-title>
-              <v-img
-                :src="`assets/${project.meta.image_name}.png`"
-                class="bg-white"
-              ></v-img>
+              
+              <!-- メディアカルーセル -->
+              <ProjectMediaCarousel
+                :media-items="project.meta.media"
+              />
+              
               <v-card-text class="body-2">
-                {{ project.meta.description }}
+                <div 
+                  :class="[
+                    'description-container',
+                    { 'is-expanded': expandedProjects[project.meta.path ?? project.meta.title] }
+                  ]"
+                >
+                  <MarkdownRenderer :content="project.meta.description" />
+                </div>
+                <div
+                  v-if="isMobile"
+                  class="show-more-btn"
+                  @click="toggleExpand(project.meta.path ?? project.meta.title)"
+                >
+                  {{ expandedProjects[project.meta.path ?? project.meta.title] ? t('common.showLess') : t('common.showMore') }}
+                </div>
               </v-card-text>
               <v-divider class="my-4" />
               <v-list dense>
@@ -95,8 +111,11 @@
 
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
+import { useDisplay } from 'vuetify'
+import type { MediaItem } from '~/types/project'
 
 const { t, locale } = useI18n()
+const { smAndDown } = useDisplay()
 
 // 文字列の場合は t() でOK
 const profileName = t('profile.name')
@@ -118,4 +137,59 @@ const { data: projects } = await useAsyncData(`data-${locale.value}`, () => {
     .all()
 })
 
+// モバイル判定（600px未満）
+const isMobile = computed(() => smAndDown.value)
+
+// 展開状態を管理
+const expandedProjects = ref<Record<string, boolean>>({})
+
+const toggleExpand = (projectKey: string) => {
+  expandedProjects.value[projectKey] = !expandedProjects.value[projectKey]
+}
 </script>
+
+<style scoped>
+.description-container {
+  position: relative;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+/* 小さい画面サイズで5行に制限 (600px未満) */
+@media (max-width: 599px) {
+  .description-container:not(.is-expanded) {
+    max-height: 7.5em; /* 1行あたり約1.5em × 5行 = 7.5em */
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .description-container.is-expanded {
+    max-height: none;
+  }
+}
+
+/* 中サイズ以上では制限なし (600px以上) */
+@media (min-width: 600px) {
+  .description-container {
+    max-height: none;
+  }
+}
+
+/* シンプルなボタンデザイン */
+.show-more-btn {
+  margin-top: 8px;
+  color: #1976d2;
+  font-size: 0.875rem;
+  cursor: pointer;
+  text-align: center;
+  padding: 4px 0;
+  user-select: none;
+}
+
+.show-more-btn:hover {
+  text-decoration: underline;
+}
+</style>
