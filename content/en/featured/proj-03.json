@@ -1,11 +1,21 @@
 {
-    "title": "Onsite Radio App — Generative Audio Guide Driven by Hierarchical Geofencing and Large Language Models (2024–)",
-    "description": "Conventional POI (Point-of-Interest)–based audio tours often play guidance only at specific spots. In many regions—especially where prominent landmarks are sparse—this leads to long stretches of silence while users walk between points. If visitors deviate from the predefined route, the narrative breaks, and the overall experience loses coherence.\n### 🎙️ Turning Every Step Into a Story\nOur research introduces Onsite Radio, a generative audio tour system that transforms the entire act of walking through a city into a continuous narrative. The system combines hierarchical geofencing with large language models to provide context-aware, seamless storytelling. Hierarchical geofencing is a location-recognition algorithm capable of handling multiple spatial scales at once—such as entire districts, individual streets, or specific buildings. Just as an experienced tour guide adjusts their commentary depending on what is around the bus at any moment—explaining a nearby landmark when it appears, or shifting to broader historical context when there is nothing particular in sight—the system can smoothly switch the geographic scale of its commentary based on the user’s current position. Building on this spatial understanding, generative AIs draw from local archives of history and culture to produce natural, conversational audio guidance in real time. By generating narration that adapts to the user’s movement patterns and the changing environment, the system creates an immersive storytelling experience in which the city itself seems to speak.",
+    "title": "Onsite Radio: Generative Audio Tours to Foster Regional Imageability (2024–)",
+    "description": "Kevin Lynch, an American urban planner, pointed out the importance of the \"city image,\" stating that it is vital for people to recognize the identity, structure, and meaning of the urban environment so that it remains a vivid memory. For both visitors and residents, learning about local history, culture, and episodes is a crucial element in enhancing the quality of the regional experience. While smartphone-based audio tours have become widespread in recent years, many services only play guidance upon arrival at specific spots, leaving users walking in silence between them. Traditional Point-of-Interest (POI) based tours often lack sufficient information in areas with few conspicuous spots, resulting in silence for the majority of the walk. Furthermore, deviating from the planned route can often disrupt the consistency of the story. Can such fragmented regional guides truly foster a coherent regional image?\n\n### 🎙️ Local Storytelling Intelligence where Walking Itself Becomes a Narrative\nIn this research, we are developing \"Onsite Radio AI,\" a system that transforms every moment of a walk into storytelling by combining **Hierarchical Geofencing** and **Large Language Models (LLMs)**. Hierarchical Geofencing is a location recognition algorithm that simultaneously handles multiple spatial scales, such as entire districts, streets, and individual buildings. Much like a tour guide who explains specific landmarks when they are nearby but switches to discussing the town's general history when there are no conspicuous objects around, this system can smoothly switch the geographic scale of the topic according to the listener's current location. Furthermore, using historical and cultural archives accumulated in the region, the LLM instantly generates natural, conversational guidance based on the recognition results of that geographic scale. We are researching this type of local storytelling intelligence that cultivates the \"Imageability\" of a region derived from the user's movement trajectory and environmental changes.",
     "media": [
         {
             "type": "image",
             "src": "ga3.png",
             "alt": "On-site radio system"
+        },
+        {
+            "type": "youtube",
+            "src": "INGhIUPZE3k",
+            "alt": "Onsite Radio App Demo"
+        },
+        {
+            "type": "youtube",
+            "src": "taI9nIhUfoQ",
+            "alt": "Puppets Demo"
         }
     ],
     "refs": [
