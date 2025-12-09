@@ -41,7 +41,7 @@
         <!-- YouTube動画の場合 -->
         <div v-else-if="item.type === 'youtube'" class="fill-height youtube-preview">
           <img
-            :src="`https://img.youtube.com/vi/${cleanYoutubeId(item.src)}/maxresdefault.jpg`"
+            :src="`https://img.youtube.com/vi/${cleanYoutubeId(item.src)}/hqdefault.jpg`"
             :alt="item.alt || 'YouTube thumbnail'"
             class="youtube-thumbnail"
             @error="(e) => (e.target as HTMLImageElement).src = `https://img.youtube.com/vi/${cleanYoutubeId(item.src)}/hqdefault.jpg`"
