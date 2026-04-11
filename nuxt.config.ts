@@ -11,7 +11,12 @@ export default defineNuxtConfig({
   app: {
     baseURL: '/sasaki/',
     cdnURL: '/sasaki/',
-    buildAssetsDir: "/assets/"
+    buildAssetsDir: "/assets/",
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/png', href: '/sasaki/hp-logo.png' }
+      ]
+    }
   },
   css: [
     'vuetify/styles',
