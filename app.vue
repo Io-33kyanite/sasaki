@@ -9,7 +9,7 @@
       <!-- 横並びナビゲーション（モバイル非表示） -->
       <div class="d-none d-sm-flex align-center">
         <v-btn :to="localePath('/')">Featured</v-btn>
-        <v-btn :to="localePath('/blog')">Blog</v-btn>
+        <!-- <v-btn :to="localePath('/blog')">Blog</v-btn> -->
         <v-btn :href=researchmapUrl target="_blank">CV(external)</v-btn>
 
         <v-menu location="bottom end">
@@ -36,7 +36,7 @@
     <v-navigation-drawer v-model="drawer" temporary class="d-sm-none">
       <v-list>
         <v-list-item :to="localePath('/')">Featured</v-list-item>
-        <v-list-item :to="localePath('/blog')">Blog</v-list-item>
+        <!-- <v-list-item :to="localePath('/blog')">Blog</v-list-item> -->
         <v-list-item :href=researchmapUrl target="_blank">CV(external)</v-list-item>
         <v-divider />
         <v-list-item
