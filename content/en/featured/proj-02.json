@@ -10,8 +10,12 @@
     ],
     "refs": [
         {
-          "title": "Sasaki et al. (2020). Data-Driven Geofencing Design for POI Notifiers Utilizing Genetic Algorithm. ISPRS Int. J. Geo-Inf. 13(6):174",
+          "title": "Sasaki et al. (2024). Data-Driven Geofencing Design for POI Notifiers Utilizing Genetic Algorithm. ISPRS Int. J. Geo-Inf. 13(6):174",
           "doi": "10.3390/ijgi13060174"
+        },
+        {
+          "title": "Sasaki et al. (2025). Activating Location-Based Storytelling in a City: Geofence Identification from Crowdsourced Mobile Sensing. Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci., XLVIII-4/W16-2025, 99–104.",
+          "doi": "10.5194/isprs-archives-XLVIII-4-W16-2025-99-2025"
         }
     ]
 }
