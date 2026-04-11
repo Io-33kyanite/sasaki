@@ -1,0 +1,15 @@
+{
+    "title": "Research on a Regional Storytelling Media Connecting Visitors' Urban Experiences to the Future (2019–)",
+    "description": "Cultural heritage in cities does not always present itself as obvious monuments or grand buildings. Historical and cultural meanings are often dispersed throughout the urban fabric—in old streets, traces of former castles, modest markers, or overgrown vacant lots—and many of these meanings become apparent only by walking and experiencing the place. To convey these hidden local messages, participatory heritage interpretation that encourages visitors to record, share, and reinterpret their experiences from their own perspectives is important.\n### 🎬 Editing story maps and video blogs from visitor activity logs and UGC\nThis research starts from the idea of a digital diary app for reflecting on one’s own walking experiences. We propose a semi-automatic method to organize user-generated content (UGC)—such as GPS traces, photos, and notes—and visualize it coherently on a map through Trajectory Articulation (segmentation of trajectories). More recently, we have been developing a tourism video-blog (VLOG) generation app that uses videos shot during visits along with location and orientation data to automatically overlay captions and narration appropriate to the points of interest. Rather than limiting ourselves to a single expression format, this research reconstructs local experiences on smartphones from visitors' activity logs and aims to create a new form of location-based social networking that conveys the attractions and meanings of a place to future visitors.",
+    "media": [],
+    "refs": [
+        {
+          "title": "Sasaki et al. (2020). Articulated Trajectory Mapping for Reviewing Walking Tours. ISPRS Int. J. Geo-Inf. 9(10):610.",
+          "doi": "10.3390/ijgi9100610"
+        },
+        {
+          "title": "Eguchi, Sasaki et al. (2025). Generative AI-Based Application for Producing Tourism Video Blogs with Proximity and Direction to Points of Interest. Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci., XLVIII-4/W16-2025, 33–38.",
+          "doi": "10.5194/isprs-archives-XLVIII-4-W16-2025-33-2025"
+        }
+    ]
+}
