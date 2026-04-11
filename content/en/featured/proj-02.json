@@ -8,6 +8,7 @@
             "alt": "Geofencing design"
         }
     ],
+    "keywords": ["Location-Based Services", "Geospatial Analysis (Python)", "Spatial Clustering", "Genetic Algorithm", "Walking Trajectory Big Data"],
     "refs": [
         {
           "title": "Sasaki et al. (2024). Data-Driven Geofencing Design for POI Notifiers Utilizing Genetic Algorithm. ISPRS Int. J. Geo-Inf. 13(6):174",

@@ -18,7 +18,12 @@
             "alt": "Puppets Demo"
         }
     ],
+    "keywords": ["Location-Based Services", "iOS App Development (Swift)", "Web App Development (Vue.js)", "Large Language Models (GPT API)", "Speech Synthesis (Amazon Polly)", "Community Event Exhibitions (Puppet Live Commentary)", "Collaboration with Local Governments"],
     "refs": [
+        {
+          "title": "Sasaki, et al. (2024). Generative Live Commentaries Interacting with Geospatial Context for Promoting Local Festivals. In Proceedings of BDIOT '24, 125–131.",
+          "doi": "10.1145/3697355.3697376"
+        },
         {
           "title": "Sasaki et al.(2024). Hierarchical Geofencing for Location-Aware Generative Audio Tours. Urban Informatics, 3, 33, Springer Nature.",
           "doi": "10.1007/s44212-024-00064-6"

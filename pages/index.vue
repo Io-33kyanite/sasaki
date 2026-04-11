@@ -78,6 +78,18 @@
                   {{ expandedProjects[project.meta.path ?? project.meta.title] ? t('common.showLess') : t('common.showMore') }}
                 </div>
               </v-card-text>
+              <div v-if="(project.meta.keywords as string[] | undefined)?.length" class="px-4 pb-2">
+                <v-chip
+                  v-for="keyword in (project.meta.keywords as string[])"
+                  :key="keyword"
+                  size="small"
+                  variant="outlined"
+                  color="blue"
+                  class="mr-1 mb-1 keyword-chip"
+                >
+                  {{ keyword }}
+                </v-chip>
+              </div>
               <v-divider class="my-4" />
               <v-list dense>
                 <v-list-item
@@ -191,5 +203,10 @@ const toggleExpand = (projectKey: string) => {
 
 .show-more-btn:hover {
   text-decoration: underline;
+}
+
+.keyword-chip {
+  font-size: 0.7rem !important;
+  height: 22px !important;
 }
 </style>

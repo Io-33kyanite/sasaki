@@ -8,6 +8,7 @@
             "alt": "データ駆動型ジオフェンシングのイメージ図"
         }
     ],
+    "keywords": ["位置情報サービス", "地理データ分析（Python）", "空間クラスタリング", "遺伝的アルゴリズム", "歩行軌跡ビッグデータ"],
     "refs": [
         {
           "title": "Sasaki et al. (2024). Data-Driven Geofencing Design for POI Notifiers Utilizing Genetic Algorithm. ISPRS Int. J. Geo-Inf. 13(6):174.",

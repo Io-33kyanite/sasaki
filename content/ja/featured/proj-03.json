@@ -18,7 +18,12 @@
             "alt": "Puppets Demo"
         }
     ],
+    "keywords": ["位置情報サービス", "iOSアプリ開発（Swift）", "ウェブアプリ開発（Vue.js）", "大規模言語モデル（GPT API）", "音声合成（Amazon Polly）", "地域イベントへの出展（ぬいぐるみ実況）", "自治体との連携"],
     "refs": [
+        {
+          "title": "Sasaki, et al. (2024). Generative Live Commentaries Interacting with Geospatial Context for Promoting Local Festivals. In Proceedings of BDIOT '24, 125–131.",
+          "doi": "10.1145/3697355.3697376"
+        },
         {
           "title": "Sasaki et al.(2024). Hierarchical Geofencing for Location-Aware Generative Audio Tours. Urban Informatics, 3, 33, Springer Nature.",
           "doi": "10.1007/s44212-024-00064-6"

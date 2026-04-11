@@ -13,6 +13,7 @@
             "alt": "Research Poster in W2GIS 2022"
         }
     ],
+    "keywords": ["モバイルセンサ", "空間統計（Python）", "ヒートマッピング", "歩行軌跡ビッグデータ", "GPS位置データ", "EBPM（証拠に基づく政策立案）"],
     "refs": [
         {
           "title": "Sasaki et al. (2023). Mobile Collaborative Heatmapping to Infer Self-Guided Walking Tourists' Preferences for Geomedia. ISPRS Int. J. Geo-Inf. 12(7):283.",

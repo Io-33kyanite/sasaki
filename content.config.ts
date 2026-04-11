@@ -10,9 +10,9 @@ export default defineContentConfig({
       type: 'data',
       source: '**/featured/*.json',
       schema: z.object({
-        tags: z.array(z.string()),
-        image: z.string(),
-        date: z.date()
+        tags: z.array(z.string()).optional(),
+        image: z.string().optional(),
+        date: z.date().optional()
       })
     })
   }
