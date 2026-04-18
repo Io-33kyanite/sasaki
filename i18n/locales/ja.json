@@ -8,5 +8,8 @@
   "common": {
     "showMore": "もっと見る",
     "showLess": "閉じる"
+  },
+  "footer": {
+    "labStudents": "研究室限定ページ"
   }
 }

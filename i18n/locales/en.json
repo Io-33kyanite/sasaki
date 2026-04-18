@@ -8,5 +8,8 @@
   "common": {
     "showMore": "Show more",
     "showLess": "Show less"
+  },
+  "footer": {
+    "labStudents": "For Arikawa Lab students"
   }
 }
