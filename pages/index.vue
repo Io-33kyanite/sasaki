@@ -245,6 +245,19 @@ const toggleExpand = (projectKey: string) => {
 .zone-ribbon--analytics { background-color: #d48c5a; }
 
 .summary-sheet {
+  position: relative;
+  overflow: hidden;
   background-color: #404a5e !important;
+}
+
+.summary-sheet::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('/sasaki/assets/cover.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.12;
+  pointer-events: none;
 }
 </style>

@@ -201,7 +201,7 @@ const tooltipStyle = computed(() => ({
 
 .diagram-base {
   opacity: 0;
-  animation: fadeIn 1.1s ease-out 0.15s forwards;
+  animation: fadeIn 1.1s ease-out 1.15s forwards;
   --final-opacity: 1;
 }
 
@@ -210,9 +210,9 @@ const tooltipStyle = computed(() => ({
   --final-opacity: 0.55;
   transition: opacity 0.25s ease;
 }
-.zone-fade.z1 { animation: fadeIn 0.8s ease-out 1.25s forwards; }
-.zone-fade.z2 { animation: fadeIn 0.8s ease-out 1.60s forwards; }
-.zone-fade.z3 { animation: fadeIn 0.8s ease-out 1.95s forwards; }
+.zone-fade.z1 { animation: fadeIn 0.8s ease-out 2.25s forwards; }
+.zone-fade.z2 { animation: fadeIn 0.8s ease-out 2.60s forwards; }
+.zone-fade.z3 { animation: fadeIn 0.8s ease-out 2.95s forwards; }
 
 .zone-fade.hovered { opacity: 0.85 !important; }
 .zone-fade.dimmed  { opacity: 0.15 !important; }
