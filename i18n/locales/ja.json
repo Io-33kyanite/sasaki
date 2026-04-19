@@ -9,6 +9,22 @@
     "showMore": "もっと見る",
     "showLess": "閉じる"
   },
+  "diagram": {
+    "title": "地域データ駆動エコシステム",
+    "desc": "地域ガイドサービス、地域体験の記録と共有、位置ビッグデータの解析の3領域からなる研究構造図",
+    "actorTop1": "地域住民や",
+    "actorTop2": "観光者",
+    "actorBottom": "事業者",
+    "boxGuide": "位置情報サービス",
+    "boxEdit": "コンテンツ編集",
+    "boxSensing": "行動のセンシング",
+    "boxInterpret": "インタープリテーション",
+    "boxShare": "データ寄付の制御",
+    "boxAnalytics": "分析システム",
+    "zoneGuide": "地域ガイドサービスの開発と実証",
+    "zoneRecord": "地域体験の記録と共有",
+    "zoneAnalytics": "ビッグデータの解析と活用"
+  },
   "footer": {
     "labStudents": "研究室限定ページ"
   }

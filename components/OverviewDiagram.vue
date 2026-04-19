@@ -7,8 +7,8 @@
       aria-labelledby="mt md"
       style="font-family: 'Noto Sans JP', sans-serif;"
     >
-      <title id="mt">地域データ駆動エコシステム</title>
-      <desc id="md">地域ガイドサービス、地域体験の記録と共有、位置ビッグデータの解析の3領域からなる研究構造図</desc>
+      <title id="mt">{{ t('diagram.title') }}</title>
+      <desc id="md">{{ t('diagram.desc') }}</desc>
 
       <defs>
         <marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
@@ -49,25 +49,25 @@
         <!-- Actors -->
         <g>
           <ellipse cx="420" cy="40" rx="90" ry="22" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.7)" stroke-width="1.2"/>
-          <text x="420" y="37" text-anchor="middle" font-size="12" fill="#e8eaf0">地域住民や</text>
-          <text x="420" y="53" text-anchor="middle" font-size="12" fill="#e8eaf0">観光者</text>
+          <text x="420" y="37" text-anchor="middle" font-size="12" fill="#e8eaf0">{{ t('diagram.actorTop1') }}</text>
+          <text x="420" y="53" text-anchor="middle" font-size="12" fill="#e8eaf0">{{ t('diagram.actorTop2') }}</text>
           <ellipse cx="420" cy="440" rx="60" ry="20" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.7)" stroke-width="1.2"/>
-          <text x="420" y="445" text-anchor="middle" font-size="12" fill="#e8eaf0">事業者</text>
+          <text x="420" y="445" text-anchor="middle" font-size="12" fill="#e8eaf0">{{ t('diagram.actorBottom') }}</text>
         </g>
 
         <!-- Inner boxes -->
         <g>
           <rect x="210" y="175" width="120" height="36" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.7)" stroke-width="1"/>
-          <text x="270" y="198" text-anchor="middle" font-size="12" fill="#e8eaf0">まちあるきガイド</text>
+          <text x="270" y="198" text-anchor="middle" font-size="12" fill="#e8eaf0">{{ t('diagram.boxGuide') }}</text>
 
           <rect x="210" y="335" width="120" height="36" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.7)" stroke-width="1"/>
-          <text x="270" y="358" text-anchor="middle" font-size="12" fill="#e8eaf0">観光ガイド編集</text>
+          <text x="270" y="358" text-anchor="middle" font-size="12" fill="#e8eaf0">{{ t('diagram.boxEdit') }}</text>
 
           <rect x="395" y="130" width="120" height="36" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.7)" stroke-width="1"/>
-          <text x="455" y="153" text-anchor="middle" font-size="12" fill="#e8eaf0">行動の自動記録</text>
+          <text x="455" y="153" text-anchor="middle" font-size="12" fill="#e8eaf0">{{ t('diagram.boxSensing') }}</text>
 
           <rect x="595" y="130" width="110" height="36" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.7)" stroke-width="1"/>
-          <text x="650" y="153" text-anchor="middle" font-size="12" fill="#e8eaf0">記録閲覧</text>
+          <text x="650" y="153" text-anchor="middle" font-size="12" fill="#e8eaf0">{{ t('diagram.boxInterpret') }}</text>
 
           <!-- Cylinder 1 -->
           <g>
@@ -77,7 +77,7 @@
           </g>
 
           <rect x="395" y="255" width="120" height="36" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.7)" stroke-width="1"/>
-          <text x="455" y="278" text-anchor="middle" font-size="12" fill="#e8eaf0">データ共有機能</text>
+          <text x="455" y="278" text-anchor="middle" font-size="12" fill="#e8eaf0">{{ t('diagram.boxShare') }}</text>
 
           <!-- Cylinder 2 -->
           <g>
@@ -87,7 +87,7 @@
           </g>
 
           <rect x="595" y="365" width="110" height="36" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.7)" stroke-width="1"/>
-          <text x="650" y="388" text-anchor="middle" font-size="12" fill="#e8eaf0">分析システム</text>
+          <text x="650" y="388" text-anchor="middle" font-size="12" fill="#e8eaf0">{{ t('diagram.boxAnalytics') }}</text>
         </g>
 
         <!-- Arrows -->
@@ -127,27 +127,30 @@
       class="diagram-tooltip"
       :style="tooltipStyle"
     >
-      {{ messages[activeZone] }}
+      {{ messages[activeZone!] }}
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
 const activeZone = ref<string | null>(null)
 const diagramRef = ref<HTMLElement | null>(null)
 const mouseX = ref(0)
 const mouseY = ref(0)
 
-const messages: Record<string, string> = {
-  guide:     '地域ガイドサービスの開発と実証',
-  record:    '地理領域の記録と共有',
-  analytics: '位置ビッグデータの解析と活用'
-}
+const messages = computed<Record<string, string>>(() => ({
+  guide:     t('diagram.zoneGuide'),
+  record:    t('diagram.zoneRecord'),
+  analytics: t('diagram.zoneAnalytics'),
+}))
 
 const zones = [
   { name: 'guide',     delayClass: 'z1', x: 165, y: 105, w: 185, h: 295, fill: '#d9e8d4' },
-  { name: 'record',    delayClass: 'z2', x: 350, y: 105, w: 380, h: 185, fill: '#cfe0ec' },
-  { name: 'analytics', delayClass: 'z3', x: 350, y: 290, w: 380, h: 110, fill: '#f3d6c4' },
+  { name: 'record',    delayClass: 'z2', x: 350, y: 105, w: 380, h: 170, fill: '#cfe0ec' },
+  { name: 'analytics', delayClass: 'z3', x: 350, y: 275, w: 380, h: 125, fill: '#f3d6c4' },
 ]
 
 function zoneStateClass(name: string) {

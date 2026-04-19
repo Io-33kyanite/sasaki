@@ -9,6 +9,22 @@
     "showMore": "Show more",
     "showLess": "Show less"
   },
+  "diagram": {
+    "title": "Regional Data-Driven Ecosystem",
+    "desc": "Research structure comprising three areas: regional guide services, recording and sharing regional experiences, and analysis of location big data",
+    "actorTop1": "Residents &",
+    "actorTop2": "Visitors",
+    "actorBottom": "Destination Managers",
+    "boxGuide": "Location-BasedServices",
+    "boxEdit": "Content Editing",
+    "boxSensing": "Behavior Sensing",
+    "boxInterpret": "Interpretation",
+    "boxShare": "Data Donation Control",
+    "boxAnalytics": "Analytics System",
+    "zoneGuide": "Development of Regional Guide Services",
+    "zoneRecord": "Recording & Sharing Regional Experiences",
+    "zoneAnalytics": "Analysis & Utilization of Big Data"
+  },
   "footer": {
     "labStudents": "For Arikawa Lab students"
   }
