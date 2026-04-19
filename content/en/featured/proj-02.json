@@ -8,6 +8,7 @@
             "alt": "Geofencing design"
         }
     ],
+    "zone": "analytics",
     "keywords": ["Location-Based Services", "Geospatial Analysis (Python)", "Spatial Clustering", "Genetic Algorithm", "Walking Trajectory Big Data"],
     "refs": [
         {

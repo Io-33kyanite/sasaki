@@ -8,6 +8,7 @@
             "alt": "HCII2022での研究ポスター"
         }
     ],
+    "zone": "record",
     "keywords": ["モバイルセンサ", "iOSアプリ開発（Swift）", "授業での活用（KoPpoMai）", "ビデオブログ", "大規模言語モデル（GPT API）", "位置情報SNS"],
     "refs": [
         {

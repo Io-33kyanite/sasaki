@@ -18,6 +18,7 @@
             "alt": "Puppets Demo"
         }
     ],
+    "zone": "guide",
     "keywords": ["位置情報サービス", "iOSアプリ開発（Swift）", "ウェブアプリ開発（Vue.js）", "大規模言語モデル（GPT API）", "音声合成（Amazon Polly）", "地域イベントへの出展（ぬいぐるみ実況）", "自治体との連携"],
     "refs": [
         {

@@ -32,10 +32,17 @@
         </v-row>
       </v-sheet>
 
-      <!-- 研究サマリー -->
-      <v-sheet class="pa-8 mb-8" color="grey lighten-4" rounded>
-        <h3 class="text-h5 font-weight-bold">{{ summary?.meta.title }}</h3>
-        <p class="body-1 mt-2">{{ summary?.meta.description }}</p>
+      <!-- 研究サマリー + 概要図 -->
+      <v-sheet class="pa-8 mb-8 summary-sheet" rounded>
+        <v-row align="start">
+          <v-col cols="12" md="6">
+            <h3 class="text-h5 font-weight-bold mb-4 text-white">{{ summary?.meta.title }}</h3>
+            <p class="body-1 mt-0 summary-description text-white">{{ summary?.meta.description }}</p>
+          </v-col>
+          <v-col cols="12" md="6">
+            <OverviewDiagram />
+          </v-col>
+        </v-row>
       </v-sheet>
 
       <!-- プロジェクト一覧 -->
@@ -49,9 +56,14 @@
           <v-hover v-slot="{ isHovering }">
             <v-card
               :elevation="isHovering ? 8 : 2"
-              class="transition-swing pa-4 mb-6"
+              class="transition-swing pa-4 mb-6 project-card"
               rounded
             >
+              <div
+                v-if="project.meta.zone"
+                class="zone-ribbon"
+                :class="`zone-ribbon--${project.meta.zone}`"
+              />
               <v-card-title class="text-h6 font-weight-bold text-wrap">
                 {{ project.meta.title }}
               </v-card-title>
@@ -208,5 +220,31 @@ const toggleExpand = (projectKey: string) => {
 .keyword-chip {
   font-size: 0.7rem !important;
   height: 22px !important;
+}
+
+.summary-description {
+  line-height: 2;
+}
+
+.project-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.zone-ribbon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  border-radius: 4px 0 0 4px;
+}
+
+.zone-ribbon--guide     { background-color: #6a9e5e; }
+.zone-ribbon--record    { background-color: #5b8fae; }
+.zone-ribbon--analytics { background-color: #d48c5a; }
+
+.summary-sheet {
+  background-color: #404a5e !important;
 }
 </style>

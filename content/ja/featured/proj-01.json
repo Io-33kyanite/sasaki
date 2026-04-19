@@ -13,6 +13,7 @@
             "alt": "Research Poster in W2GIS 2022"
         }
     ],
+    "zone": "analytics",
     "keywords": ["モバイルセンサ", "地理データ分析（Python）", "ヒートマッピング", "歩行軌跡ビッグデータ", "GPS位置データ", "EBPM（証拠に基づく政策立案）"],
     "refs": [
         {

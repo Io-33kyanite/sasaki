@@ -18,6 +18,7 @@
             "alt": "Puppets Demo"
         }
     ],
+    "zone": "guide",
     "keywords": ["Location-Based Services", "iOS App Development (Swift)", "Web App Development (Vue.js)", "Large Language Models (GPT API)", "Speech Synthesis (Amazon Polly)", "Community Event Exhibitions (Puppet Live Commentary)", "Collaboration with Local Governments"],
     "refs": [
         {

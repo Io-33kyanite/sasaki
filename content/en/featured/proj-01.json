@@ -8,6 +8,7 @@
             "alt": "Heatmap for walking route recommendations"
         }
     ],
+    "zone": "analytics",
     "keywords": ["Mobile Sensors", "Spatial Statistics (Python)", "Heatmapping", "Walking Trajectory Big Data", "GPS Location Data", "EBPM (Evidence-Based Policy Making)"],
     "refs": [
         {
