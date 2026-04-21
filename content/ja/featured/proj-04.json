@@ -4,7 +4,12 @@
     "media": [
         {
             "type": "image",
-            "src": "ga4.png",
+            "src": "ga4_ja.png",
+            "alt": "軌跡分節化によるまち歩きムービーの制作"
+        },
+        {
+            "type": "image",
+            "src": "ga4_2.png",
             "alt": "HCII2022での研究ポスター"
         }
     ],
